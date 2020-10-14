@@ -189,3 +189,25 @@ Unity를 통해 제작
 (2) 우클릭을 통해 위치 값을 받아 해당 위치로 움직이게 한다.  
 (3) 이동 중에 적 유닛이 사거리에 들어오면 유닛 전투를 한다.  
 (4) 전투가 끝난 후에 지정한 위치로 계속 이동한다.  
+
+imageEditor.setDrawingShape('rect', {
+   fill: {
+       type: 'filter',
+       filter: [{blur: 0.3}, {pixelate: 20}]
+   },
+   width: 100,
+   height: 200
+});
+
+imageEditor.addShape('rect', {
+   fill: {
+       type: 'filter',
+       filter: [{blur: 0.3}, {pixelate: 20}]
+   },
+   width: 100,
+   height: 200,
+   left: 100,
+   top: 100,
+   stroke: 'blue',
+   strokeWidth: 3
+});
