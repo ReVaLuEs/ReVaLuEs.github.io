@@ -37,7 +37,7 @@
 <img src="./img/3.jpg">  
 
 # 4. 대표이미지  
-<img src="./img/대표이미지.jpg">  
+<img src="./img/대표이미지.png">  
 
 # 5. 컨셉 and 대표이미지 기반 작품묘사
 
